@@ -5,3 +5,19 @@
 html{
     background-color: #fffff2;
 }
+
+body{
+  display:flex;
+  flex-direction: column;
+  gap: 70px;
+
+}
+
+.input{
+  font-size: 32px;
+  width: 400px;
+  height: 100px;
+  border: 5px solid #008000;
+  border-radius: 8px;
+
+}
