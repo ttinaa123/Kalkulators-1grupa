@@ -1,7 +1,30 @@
 *{
     box-sizing: border-box;
+    margin: 0;
 }
 
 html{
-    background-color: #fffff2;
+    background-color: lightblue;
 }
+
+.header_container{
+   display: flex;
+   align-items: center;
+   gap: 40px;
+}
+
+.score_container,.move-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.player1{
+    background-color: lightpink;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+}
+
+
+
