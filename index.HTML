@@ -5,25 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" 
-    href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Simple calculator</h1>
-    <div>
-    <input type="number" class="js-input1 input"
-    placeholder="First number">
-    <button class="js-plus">Plus</button>
-    <button class="js-minus">Minus</button>
-    <button class="js-multiply">Multiply</button>
-    <button class="js-divide">Divide</button>
-    <input type="number" class="js-input2 input"
-    placeholder="Second number">
+    <div class="action_container">
+        <input type="number" class="js-input1 input" placeholder="First number">
+        <button class="operator js-plus">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24"><path fill="currentColor" d="M19 12.998h-6v6h-2v-6H5v-2h6v-6h2v6h6z"/></svg>
+        </button>
+        <button class="operator js-minus">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24"><path fill="currentColor" d="M19 12.998H5v-2h14z"/></svg>
+        </button>
+        <button class="operator js-multiply">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24"><path fill="currentColor" d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12L19 6.41Z"/></svg>
+        </button>
+        <button class="operator js-divide">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24"><path fill="currentColor" d="M5 11h14v2H5zm7.002-7a2 2 0 1 0-.004 4a2 2 0 0 0 .004-4zm0 12a2 2 0 1 0-.004 4a2 2 0 0 0 .004-4z"/></svg>
+        </button>
+        <input type="number" class="js-input2 input" placeholder="Second number">
     </div>
 
-    <div>
+    <div class="result_container">
     <img src="Bart.png" alt="Barts Simpson">
-    <span class="js-result"></span>
+    <span class="result-text js-result"></span>
     </div>
 
 </body>

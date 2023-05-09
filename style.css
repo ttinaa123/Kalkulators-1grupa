@@ -9,7 +9,9 @@ html{
 body{
   display:flex;
   flex-direction: column;
+  align-items: center;
   gap: 70px;
+
 
 }
 
@@ -20,4 +22,34 @@ body{
   border: 5px solid #008000;
   border-radius: 8px;
 
+}
+
+.operator{
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.operator:hover{
+  color: gray;
+  transition: 0.3s;
+}
+
+.action_container{
+  display: flex;
+}
+
+.result_container{
+  display: flex;
+  align-items: center;
+
+}
+
+.result_text{
+  font-size: 30px;
 }
